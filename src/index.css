@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+:root{
+  --dark-navy:#242742;
+  --pale-navy:#36384D;
+  --vermillion:#FF6155;
+  --gradient-1:#FF6A3A;
+  --grey:#19182B;
+  --white:#fff;
+}
