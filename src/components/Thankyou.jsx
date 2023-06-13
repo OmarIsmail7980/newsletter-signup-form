@@ -40,7 +40,7 @@ const Thankyou = () => {
             </p>
             <button
               className="absolute bottom-0 mb-10 lg:mb-0 md:mb-0 w-full lg:static md:static p-4 bg-[var(--dark-navy)] rounded-lg text-[var(--white)] font-bold 
-              hover:bg-[var(--vermillion)] hover:shadow-lg hover:shadow-[var(--gradient-1)]"
+              lg:hover:bg-[var(--vermillion)] lg:hover:shadow-lg lg:hover:shadow-[var(--gradient-1)]"
               onClick={handleClick}
             >
               Dismiss message
@@ -48,7 +48,7 @@ const Thankyou = () => {
           </div>
         </div>
       ) : (
-        <Navigate to="/" />
+        <Navigate to="./" />
       )}
     </>
   );

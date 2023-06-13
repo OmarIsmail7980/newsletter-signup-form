@@ -51,8 +51,8 @@ const Form = () => {
 
       <button
         className="p-4 bg-[var(--dark-navy)] rounded-lg text-[var(--white)] font-bold 
-                  sm:mb-4 hover:bg-[var(--vermillion)] hover:shadow-lg 
-                  hover:shadow-[var(--gradient-1)] mb-10 lg:mb-10 md:mb-10"
+                  sm:mb-4 lg:hover:bg-[var(--vermillion)] lg:hover:shadow-lg 
+                  lg:hover:shadow-[var(--gradient-1)] mb-10 lg:mb-10 md:mb-10"
         onClick={handleSubmit}
       >
         Subscribe to monthly newsletter
